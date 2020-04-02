@@ -9,6 +9,7 @@
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <link rel="stylesheet" href="/styles/main.css">
     <link rel="stylesheet" href="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/css/mdui.min.css">
+    <link rel="stylesheet" href="/media/css/post.css">
     <link rel="stylesheet" href="/media/live2d/css/live2d.css" />
     
 </head>
@@ -44,43 +45,39 @@
     </ul>
 </div>
 
-<div class="mdui-container">
-    <div class="mdui-row">
-        <div class="mdui-col-md-10 mdui-col-offset-md-1 ">
-            
-            
-                <div class="mdui-typo-display-1 mdui-m-b-2 mdui-m-l-1">
-                    <div class="mdui-row">
-                        <div class="mdui-col-xs-12">2020</div>
-                    </div>
-                    <div class="mdui-row">
-                        
-                        
-                            <div class="mdui-col-xs-6 mdui-p-a-1">
-                                <div class="mdui-card">
-                                    <div class="mdui-card-media">
-                                        <img width=536px height=300px src="/media/img/bai.jpg"/>
-                                        <div class="mdui-card-primary">
-                                            <div class="mdui-card-primary-title">第一篇文章</div>
-                                            <div class="mdui-card-primary-subtitle">2020-04-02</div>
-                                        </div>
-                                    </div>
-                                    <div class="mdui-card-actions" style="float:right;">
-                                        <a href="https://NGTZ.github.io/post/di-yi-pian-wen-zhang/" class="mdui-btn mdui-color-theme-accent mdui-ripple">点击查看</a>
-                                    </div>
-                                </div>
-                            </div>
-                        
-                        
-                    </div>
+<div id="content" class="site-content">
+    <div id="primary" class="content-area">
+        <main id="main" class="site-main" role="main">
+            <article id="post-1270" class="post-1270 post type-post status-publish format-standard hentry category-90 category-129 tag-149">
+                <header class="entry-header">
+                    <h1 class="entry-title">第一篇文章</h1>
+                    <p class="entry-census">发布于 2020-04-02</p>
+                    <hr>
+                </header>
+                <div class="neko">
+                    <p>本该在三月份开学的我因为在疫情在家待到了四月，虽然通知说四月八号湖北也恢复正常了但是学校还是没有确切的开学时间。虽然每天在家睡到自然醒的感觉很不错，但是我更喜欢能处在一个有学习氛围和有朋友的地方；虽然学校宿舍配设不是很好，但是经过一学期的适应，感觉也没什么了。<br>
+在一个比较阴冷的天气，早上九点多起来脑子里突然闪过一个想法——搭建一个自己的博客，把自己平时的学习记录通过发文章的方式保存下来，说不定可以更好地鞭策自己学习。<br>
+一个大专生在现在的职业市场上想要取得一席之地我个人感觉还是比较难的，现在大多数岗位招人的条件第一个便是：本科以上学历。即便是你在专科再怎么认真学习，有再多的成就，这一个条件就已经把你拒之门外了。所以我便计划参加专升本考试，说来也是巧合，恰逢这两年专升本扩招和考试科目减少，也算是我很好的一个上岸机会，所以，加油吧！</p>
+
                 </div>
-            
+            </article>
+        </main>
+    </div>
+    <div class="doc-footer-nav mdui-color-theme">
+        <div class="mdui-container">
+            <div class="mdui-row">
+                
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
+                
+                
+                <div class="mdui-col-xs-2 mdui-col-sm-6 doc-footer-nav-left"></div>
+                
+            </div>
         </div>
     </div>
-    <div class="mdui-row">
-        
-
-    </div>
+    <br>
+    
+    <div class="comment"></div>
 </div>
 <footer class="mdui-container footer ">
     <div class="head_card-offset"></div>
@@ -132,4 +129,25 @@
 
 </body>
 <script src="//cdnjs.loli.net/ajax/libs/mdui/0.4.3/js/mdui.min.js"></script>
+<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<script>
+    $('.comment').bind('DOMNodeInserted',()=>{
+        $('.comment').unbind()
+
+        $('.vbtn').addClass(' mdui-btn mdui-color-theme-accent mdui-ripple')
+    })
+
+    let valine = new Valine({
+        el: '.comment',
+        
+        
+        
+        placeholder: '欢迎你~',
+        
+        path: window.location.pathname,
+        pageSize: 30,
+        avatar:'mm',
+        notify:true
+    })
+</script>
 </html>
