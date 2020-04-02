@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NGTZ.github.io/</id>
     <title>NGTZ</title>
-    <updated>2020-04-02T13:57:48.065Z</updated>
+    <updated>2020-04-02T15:01:05.161Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NGTZ.github.io/"/>
     <link rel="self" href="https://NGTZ.github.io/atom.xml"/>
@@ -16,5 +16,10 @@
         <link href="https://NGTZ.github.io/post/di-yi-pian-wen-zhang/">
         </link>
         <updated>2020-04-02T12:28:15.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="https://NGTZ.github.io//post-images/1585839281702.jpg" alt="" loading="lazy"><br>
+本该在三月份开学的我因为在疫情在家待到了四月，虽然通知说四月八号湖北也恢复正常了但是学校还是没有确切的开学时间。虽然每天在家睡到自然醒的感觉很不错，但是我更喜欢能处在一个有学习氛围和有朋友的地方；虽然学校宿舍配设不是很好，但是经过一学期的适应，感觉也没什么了。<br>
+在一个比较阴冷的天气，早上九点多起来脑子里突然闪过一个想法——搭建一个自己的博客，把自己平时的学习记录通过发文章的方式保存下来，说不定可以更好地鞭策自己学习。<br>
+一个大专生在现在的职业市场上想要取得一席之地我个人感觉还是比较难的，现在大多数岗位招人的条件第一个便是：本科以上学历。即便是你在专科再怎么认真学习，有再多的成就，这一个条件就已经把你拒之门外了。所以我便计划参加专升本考试，说来也是巧合，恰逢这两年专升本扩招和考试科目减少，也算是我很好的一个上岸机会，所以，加油吧！</p>
+]]></content>
     </entry>
 </feed>
