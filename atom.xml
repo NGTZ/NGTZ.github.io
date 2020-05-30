@@ -2,20 +2,35 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://NGTZ.github.io/</id>
     <title>NGTZ</title>
-    <updated>2020-04-04T06:13:38.455Z</updated>
+    <updated>2020-05-30T23:40:34.419Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://NGTZ.github.io/"/>
     <link rel="self" href="https://NGTZ.github.io/atom.xml"/>
-    <subtitle>保持学习</subtitle>
+    <subtitle>你来自哪里？</subtitle>
     <logo>https://NGTZ.github.io/images/avatar.png</logo>
     <icon>https://NGTZ.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, NGTZ</rights>
+    <entry>
+        <title type="html"><![CDATA[养]]></title>
+        <id>https://NGTZ.github.io/post/yang/</id>
+        <link href="https://NGTZ.github.io/post/yang/">
+        </link>
+        <updated>2020-05-30T23:33:13.000Z</updated>
+        <content type="html"><![CDATA[<p>当他考上一所不错的小学或中学时，需要面试。面试官问他问题时，他毫无自信，畏畏缩缩，问他梦想是什么，他说，这辈子只想赚钱。由于表现不好，他被淘汰了。</p>
+<p>当他努力学习，终于考上大学时，看上了一个女同学，因为囊中羞涩，约会约不起，于是一直不敢谈恋爱。直到毕业工作了，才发现，靠自己的工资买不起房，于是一直娶妻困难。</p>
+<p>他努力一生，不知道为什么，就算再努力，也还总是有很多不如意。工作上不会拒绝，不懂请别人帮忙，不敢请吃饭，混不开。老婆嫌他太抠，不浪漫，儿子嫌他没用，挣钱不多。也就这么磕磕绊绊的过来了，回首，发现自己好多次在抑郁的边缘，耳边时常响起父母的道德绑架“我们以后指望你呢”，孩子的诉求“爸爸，我想要更多的玩具”，老婆的喋喋不休“工资怎么这么少？&quot;....</p>
+<p>这就是我的儿子，在我穷养下的儿子。</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[愿 花飨逝者，山河无恙。]]></title>
         <id>https://NGTZ.github.io/post/yuan-hua-xiang-shi-zhe-shan-he-wu-yang/</id>
         <link href="https://NGTZ.github.io/post/yuan-hua-xiang-shi-zhe-shan-he-wu-yang/">
         </link>
         <updated>2020-04-04T06:08:52.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>                                                     ——2020.04.04 清明
+                                                     国殇铭记于心。</code></pre>
+]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[第一篇文章]]></title>
